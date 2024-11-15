@@ -5,6 +5,7 @@
 	- Modification de l'ip du client :
 		Panneau de configuration > Centre réseau et partage > Modifier les paramètres de la carte
 		Clic droit sur la carte > Propriétés > Double clic sur la ligne concernant IPv4 
+		
 		![IPFIXECLIENT](https://github.com/Waxausaurus/ImgStorage/blob/main/Q1.1/IPFIXECLIENTQ1.1.png?raw=true)
 	- Ping fonctionnel
 		![PINGCLIENTSRV](https://github.com/Waxausaurus/ImgStorage/blob/main/Q1.1/PING_CLIENTSRV.png?raw=true)
@@ -13,6 +14,7 @@
 - Q1.4: Il est effectivement possible que le client récupère l'adresse 172.16.10.15. Il faut pour cela lui réserver l'adresse côté serveur.
   Pour se faire, il faut créer une nouvelle réservation et insérer l'adresse MAC du client et l'adresse IP destinée à ce client
   ![CONFRESA](https://github.com/Waxausaurus/ImgStorage/blob/main/Q1.4/CONFIGRESA.png?raw=true)
+  
   Il suffit ensuite de faire un ipconfig /release sur le client puis un ipconfig /renew pour appliquer la nouvelle IP
   ![IPCONFIGRESA](https://github.com/Waxausaurus/ImgStorage/blob/main/Q1.4/IPCONFIGRESA.png?raw=true)
   
